@@ -10,7 +10,7 @@ body {
 .header {
   display: flex;
   align-items: center;
-  height: 65px;
+  height: 45px;
   background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
   color: white;
   padding: 20px;
@@ -31,13 +31,38 @@ body {
   font-weight: 500;
 }
 
+.meme-main {
+  padding: 36px;
+}
+
+.form {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 17px;
+}
+
 .input-fields {
-  align-items: center;
-  margin: 20px;
+  padding: 8px;
+  font-family: "Karla", sans-serif;
+  border-radius: 5px;
+  border: 1px solid #d5d4d8;
+  text-indent: 5px;
+  width: 92%;
 }
 
 .Button {
-  align-items: center;
-  display: flex;
-  margin: auto;
+  grid-column: 1 / -1;
+  font-family: "Karla", sans-serif;
+  border-radius: 5px;
+  background: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.memeImage {
+  width: 80%;
+  height: 80%;
+  margin: 20px;
+  border-radius: 5%;
 }
