@@ -53,7 +53,7 @@ export default function Meme() {
           />
         </label>
         <button className="Button" type="submit" value="">
-          Get a new meme image
+          Get a random new meme image
         </button>
       </form>
       <img src={meme.randomImage} className="memeImage" />
