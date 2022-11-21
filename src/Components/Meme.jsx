@@ -1,5 +1,6 @@
 import React from "react";
 import memesData from "../Data/memesData";
+import "../App.css";
 
 export default function Meme() {
   const [meme, setMeme] = React.useState({
@@ -22,7 +23,7 @@ export default function Meme() {
 
   return (
     <div className="meme-main">
-      <form className="form" onSubmit={(e) => getMemeImage(e)}>
+      <form className="form-meme" onSubmit={(e) => getMemeImage(e)}>
         <label>
           <input className="input-fields" type="text" placeholder="Top text" />
         </label>
