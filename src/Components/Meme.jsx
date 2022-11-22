@@ -47,7 +47,6 @@ export default function Meme() {
             className="input-fields"
             type="text"
             placeholder="Bottom text"
-            name="bottomText"
             value={meme.bottomText}
             onChange={handleChange}
           />
